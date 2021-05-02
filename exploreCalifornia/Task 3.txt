@@ -1,0 +1,168 @@
+Noah Laxton@DESKTOP-TH123HV MINGW64 ~/SWE-git/git-file-change (master)
+$ cd california_site
+
+Noah Laxton@DESKTOP-TH123HV MINGW64 ~/SWE-git/git-file-change/california_site (master)
+$ ls
+README.md  exploreCalifornia/
+
+Noah Laxton@DESKTOP-TH123HV MINGW64 ~/SWE-git/git-file-change/california_site (master)
+$ cd exploreCalifornia
+
+Noah Laxton@DESKTOP-TH123HV MINGW64 ~/SWE-git/git-file-change/california_site/exploreCalifornia (master)
+$ ls
+assets/  contact.html  explorers.html  index.html  mission.html  resources/  resources.html  support.html  tours/  tours.html
+
+Noah Laxton@DESKTOP-TH123HV MINGW64 ~/SWE-git/git-file-change/california_site/exploreCalifornia (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   contact.html
+        modified:   explorers.html
+        modified:   index.html
+        modified:   mission.html
+        modified:   resources.html
+        modified:   support.html
+        modified:   tours.html
+        modified:   tours/tour_detail_backpack_cal.html
+        modified:   tours/tour_detail_bigsur.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../.idea/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Noah Laxton@DESKTOP-TH123HV MINGW64 ~/SWE-git/git-file-change/california_site/exploreCalifornia (master)
+$ git add contact.html
+
+Noah Laxton@DESKTOP-TH123HV MINGW64 ~/SWE-git/git-file-change/california_site/exploreCalifornia (master)
+$ git add explorers.html
+
+Noah Laxton@DESKTOP-TH123HV MINGW64 ~/SWE-git/git-file-change/california_site/exploreCalifornia (master)
+$ git add index.html
+
+Noah Laxton@DESKTOP-TH123HV MINGW64 ~/SWE-git/git-file-change/california_site/exploreCalifornia (master)
+$ git add mission.html
+
+Noah Laxton@DESKTOP-TH123HV MINGW64 ~/SWE-git/git-file-change/california_site/exploreCalifornia (master)
+$ git add resources.html
+
+Noah Laxton@DESKTOP-TH123HV MINGW64 ~/SWE-git/git-file-change/california_site/exploreCalifornia (master)
+$ git add support.html
+
+Noah Laxton@DESKTOP-TH123HV MINGW64 ~/SWE-git/git-file-change/california_site/exploreCalifornia (master)
+$ git add tours.html
+
+Noah Laxton@DESKTOP-TH123HV MINGW64 ~/SWE-git/git-file-change/california_site/exploreCalifornia (master)
+$ git add tours/tour_detail_backpack_cal.html
+
+Noah Laxton@DESKTOP-TH123HV MINGW64 ~/SWE-git/git-file-change/california_site/exploreCalifornia (master)
+$ git add tours/tour_detail_bigsur.html
+
+Noah Laxton@DESKTOP-TH123HV MINGW64 ~/SWE-git/git-file-change/california_site/exploreCalifornia (master)
+$ git commit
+Aborting commit due to empty commit message.
+
+Noah Laxton@DESKTOP-TH123HV MINGW64 ~/SWE-git/git-file-change/california_site/exploreCalifornia (master)
+$ git commit
+[master b0ce806] Relect Price Changes
+ 9 files changed, 19 insertions(+), 19 deletions(-)
+
+Noah Laxton@DESKTOP-TH123HV MINGW64 ~/SWE-git/git-file-change/california_site/exploreCalifornia (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../.idea/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Noah Laxton@DESKTOP-TH123HV MINGW64 ~/SWE-git/git-file-change/california_site/exploreCalifornia (master)
+$ git log
+commit b0ce8066023eef73c3857baf3b1c1b640da25065 (HEAD -> master)
+Author: Noah Laxton <noahlaxton@gmail.com>
+Date:   Sat May 1 15:14:29 2021 -0700
+
+    Relect Price Changes
+
+commit cfae0d02d878037256fe277db92e2c5c1175af26 (origin/master, origin/HEAD)
+Author: sarafarag <sara.farag@bellevuecollege.edu>
+Date:   Sun Apr 26 01:39:51 2020 -0700
+
+    remove extra folder
+
+commit 9cc97ae069d3746331785e9fbfe58f0007e46596
+Author: sarafarag <sara.farag@bellevuecollege.edu>
+Date:   Sun Apr 26 01:35:28 2020 -0700
+
+    site content
+
+commit 7b2ec1c286e84591fee391bb18933d1cc5098cac
+Author: sarafarag <sara.farag@bellevuecollege.edu>
+Date:   Sun Apr 26 00:55:29 2020 -0700
+
+    first commit
+
+Noah Laxton@DESKTOP-TH123HV MINGW64 ~/SWE-git/git-file-change/california_site/exploreCalifornia (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   explorers.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../.idea/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Noah Laxton@DESKTOP-TH123HV MINGW64 ~/SWE-git/git-file-change/california_site/exploreCalifornia (master)
+$ git add explorers.html
+
+Noah Laxton@DESKTOP-TH123HV MINGW64 ~/SWE-git/git-file-change/california_site/exploreCalifornia (master)
+$ git commit
+[master 9f48426] Reflect the Title Change
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Noah Laxton@DESKTOP-TH123HV MINGW64 ~/SWE-git/git-file-change/california_site/exploreCalifornia (master)
+$ git log
+commit 9f48426e6341fc34dac8d323b913c131b383320c (HEAD -> master)
+Author: Noah Laxton <noahlaxton@gmail.com>
+Date:   Sat May 1 15:16:38 2021 -0700
+
+    Reflect the Title Change
+
+commit b0ce8066023eef73c3857baf3b1c1b640da25065
+Author: Noah Laxton <noahlaxton@gmail.com>
+Date:   Sat May 1 15:14:29 2021 -0700
+
+    Relect Price Changes
+
+commit cfae0d02d878037256fe277db92e2c5c1175af26 (origin/master, origin/HEAD)
+Author: sarafarag <sara.farag@bellevuecollege.edu>
+Date:   Sun Apr 26 01:39:51 2020 -0700
+
+    remove extra folder
+
+commit 9cc97ae069d3746331785e9fbfe58f0007e46596
+Author: sarafarag <sara.farag@bellevuecollege.edu>
+Date:   Sun Apr 26 01:35:28 2020 -0700
+
+    site content
+
+commit 7b2ec1c286e84591fee391bb18933d1cc5098cac
+Author: sarafarag <sara.farag@bellevuecollege.edu>
+Date:   Sun Apr 26 00:55:29 2020 -0700
+
+    first commit
